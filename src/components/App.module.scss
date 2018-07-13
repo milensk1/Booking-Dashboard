@@ -1,0 +1,17 @@
+@import '../styles/vars';
+
+.app :global {
+    .page-content {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    hr { 
+        display: block;
+        height: 1px;
+        border: 0;
+        width: 75%;
+        border-top: 1px solid #374148;
+        margin-bottom:50px;
+    }
+}
