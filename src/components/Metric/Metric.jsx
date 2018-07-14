@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styles from './HotelMetric.module.scss';
+import styles from './Metric.module.scss';
 
-export class HotelMetric extends Component {
+export class Metric extends Component {
     render() {
         const value = this.props.value;
         let description;

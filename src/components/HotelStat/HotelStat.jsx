@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { HotelMetric } from "../Hotel/HotelMetric";
+import { Metric } from "../Metric/Metric";
 import { GetHotelStats } from '../Helper';
 
 export class HotelStat extends Component {
@@ -25,7 +25,7 @@ export class HotelStat extends Component {
     renderStats() {
         let result = [];
         for (const stat in this.state.hotelStats) {
-            result.push(<HotelMetric 
+            result.push(<Metric 
                 value={this.state.hotelStats[stat]}
                 description={stat} />)
         }
